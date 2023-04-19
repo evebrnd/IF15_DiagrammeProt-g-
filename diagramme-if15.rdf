@@ -21,24 +21,48 @@
     
 
 
-    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#equipements -->
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Equipements -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#equipements"/>
-    
-
-
-    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#test -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#test">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#voie"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Equipements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Escalade_en_bloc"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#voie -->
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Escalade_en_bloc -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#voie">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#equipements"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Escalade_en_bloc"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Grimpeur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Grimpeur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Escalade_en_bloc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Mur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Mur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Escalade_en_bloc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Techniques -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Techniques">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Escalade_en_bloc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Tentative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Tentative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Escalade_en_bloc"/>
     </owl:Class>
 </rdf:RDF>
 
