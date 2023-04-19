@@ -13,6 +13,87 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_composé_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_composé_de">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_décrit_par -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_décrit_par">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_justifié_par -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_justifié_par">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_réalisé_par -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_réalisé_par">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_régi_par -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_régi_par">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Nécessite -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Nécessite">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Résulte_en -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Résulte_en"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Utilise -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Utilise">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -38,10 +119,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Beta_classique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Beta_classique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Qualificatifs"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bidoigts -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bidoigts">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Trou"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bloc_mal_lu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bloc_mal_lu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Raisons"/>
     </owl:Class>
     
 
@@ -58,6 +155,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Boule">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Intermédiaire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bourrin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bourrin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Qualificatifs"/>
     </owl:Class>
     
 
@@ -82,6 +187,20 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Conditions_de_réusssite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Tentative"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Départ_stabilisé"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Fin_stabilisée"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -123,6 +242,24 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Difficile">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_prises"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Colonne"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Plat"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Trou"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -139,6 +276,15 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Débutant">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau_technique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Départ_stabilisé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Départ_stabilisé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Conditions_de_réusssite"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Fin_stabilisée"/>
     </owl:Class>
     
 
@@ -163,13 +309,96 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Equipements">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Escalade_en_bloc"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_composé_de"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Chaussons"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_composé_de"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Crashpad"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_composé_de"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Magnésie"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_composé_de"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Strap"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Escalade_en_bloc -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Escalade_en_bloc"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Escalade_en_bloc">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Contre_pointe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Jeté"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Lolotte"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Talon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_réalisé_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Grimpeur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Nécessite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Equipements"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Nécessite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Mur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Résulte_en"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Tentative"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Utilise"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Techniques"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -185,6 +414,18 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Facile">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_prises"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bac"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Poignée"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -197,10 +438,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Fin_stabilisée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Fin_stabilisée">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Conditions_de_réusssite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Flash -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Flash">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Qualificatifs"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Grimpeur -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Grimpeur">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Escalade_en_bloc"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Fatigue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -224,8 +493,43 @@
     <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Intermédiaire -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Intermédiaire">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau_technique"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_prises"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bossette"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Boule"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Mini_bac"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Pince"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Réglette"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Volume"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -235,6 +539,14 @@
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Jeté">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Techniques"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Lolotte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Jeté_raté -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Jeté_raté">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Raisons"/>
     </owl:Class>
     
 
@@ -251,6 +563,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Magnésie">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Equipements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Manque_de_force -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Manque_de_force">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Raisons"/>
     </owl:Class>
     
 
@@ -275,6 +595,36 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Mur">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Escalade_en_bloc"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Cotation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Hauteur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Inclinaison"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_grimpe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_prises"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -283,6 +633,20 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Grimpeur"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau_de_force"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau_technique"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -299,6 +663,28 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau_technique">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Avancé"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Débutant"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Expert"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Nouvelle_beta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Nouvelle_beta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Qualificatifs"/>
     </owl:Class>
     
 
@@ -327,10 +713,48 @@
     
 
 
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Propre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Propre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Qualificatifs"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Qualificatifs -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Qualificatifs">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Tentative"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Beta_classique"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bourrin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Flash"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Nouvelle_beta"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Propre"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -355,6 +779,19 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Résultat">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Tentative"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Echec"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Réussite"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -391,6 +828,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Technique_mal_réalisée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Technique_mal_réalisée">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Raisons"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Techniques -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Techniques">
@@ -403,6 +848,25 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Tentative">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Escalade_en_bloc"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_décrit_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Qualificatifs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_régi_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Conditions_de_réusssite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Résulte_en"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Résultat"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -427,6 +891,24 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Trou">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Difficile"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bidoigts"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Monodoigt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Tridoigts"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -435,6 +917,22 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_grimpe">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Mur"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Dalle"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Dynamique"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Dévers"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Statique"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Toit"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -443,6 +941,20 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_prises">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Mur"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Est_défini_par"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Difficile"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Facile"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Intermédiaire"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -466,9 +978,28 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Beta_classique"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bourrin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Flash"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Nouvelle_beta"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Propre"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bidoigts"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Monodoigt"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Tridoigts"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bloc_mal_lu"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Jeté_raté"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Manque_de_force"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Technique_mal_réalisée"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
