@@ -21,6 +21,144 @@
     
 
 
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Avancé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Avancé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau_technique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bac -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bac">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Facile"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Poignée"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bidoigts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bidoigts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Trou"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bossette -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bossette">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Intermédiaire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Boule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Boule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Intermédiaire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Chaussons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Chaussons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Equipements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Colonne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Colonne">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Difficile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Conditions_de_réusssite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Conditions_de_réusssite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Tentative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Contre_pointe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Contre_pointe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Techniques"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Talon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Cotation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Cotation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Mur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Crashpad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Crashpad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Equipements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Dalle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Dalle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_grimpe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Difficile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Difficile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_prises"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Dynamique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Dynamique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_grimpe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Débutant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Débutant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau_technique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Dévers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Dévers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_grimpe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Echec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Echec">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Résultat"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Equipements -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Equipements">
@@ -35,6 +173,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Expert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Expert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau_technique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Facile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Facile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_prises"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Fatigue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Fatigue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Grimpeur"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Grimpeur -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Grimpeur">
@@ -43,10 +205,188 @@
     
 
 
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Hauteur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Hauteur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Mur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Inclinaison -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Inclinaison">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Mur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Intermédiaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Intermédiaire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau_technique"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_prises"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Jeté -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Jeté">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Techniques"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Lolotte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Lolotte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Lolotte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Techniques"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Magnésie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Magnésie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Equipements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Mini_bac -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Mini_bac">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Intermédiaire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Monodoigt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Monodoigt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Trou"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Mur -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Mur">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Escalade_en_bloc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Grimpeur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau_de_force -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau_de_force">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau_technique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau_technique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Niveau"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Pince -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Pince">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Intermédiaire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Plat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Plat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Difficile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Poignée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Poignée">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Facile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Qualificatifs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Qualificatifs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Tentative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Raisons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Raisons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Echec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Réglette -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Réglette">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Intermédiaire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Résultat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Résultat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Tentative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Réussite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Réussite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Résultat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Statique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Statique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_grimpe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Strap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Strap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Equipements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Talon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Talon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Techniques"/>
     </owl:Class>
     
 
@@ -64,6 +404,136 @@
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Tentative">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Escalade_en_bloc"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Toit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Toit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_grimpe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Tridoigts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Tridoigts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Trou"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Trou -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Trou">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Difficile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_grimpe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_grimpe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Mur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_prises -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Types_de_prises">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Mur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Volume -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Volume">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Intermédiaire"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bidoigts"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Monodoigt"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Tridoigts"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bossette"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Boule"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Mini_bac"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Pince"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Réglette"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Volume"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Bossette"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Boule"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Mini_bac"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Volume"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Chaussons"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Crashpad"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Magnésie"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Strap"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Colonne"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Plat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Trou"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Cotation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Hauteur"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Inclinaison"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Dalle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Dynamique"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Dévers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Statique"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Toit"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Difficile"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Facile"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/asus/ontologies/2023/3/diagramme-if15#Intermédiaire"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
